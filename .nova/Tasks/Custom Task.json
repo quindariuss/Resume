@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "pdflatex Resume.tex"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "nova Resume.pdf"
+    }
+  },
+  "buildBeforeRunning" : true,
+  "identifier" : "94EF94AF-0213-46E4-9E41-6C5F1B76A9ED"
+}
