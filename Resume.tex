@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[compact]{titlesec}
+\usepackage{hyperref}
 \usepackage[margin=0.5in]{geometry}
 \titleformat{\section}
 {\huge\bfseries}
@@ -28,7 +29,7 @@ Quin'darius Lyles-Woods
 \end{center}
 \vspace{.25em}
 \subsection{Contact Information}
-quinwoodz@gmail.com --- https://quindarius.com --- 704-470-7036
+quinwoodz@gmail.com --- \url{https://quindarius.com} --- 704-470-7036
 }
 
 \begin{document}
@@ -37,32 +38,39 @@ quinwoodz@gmail.com --- https://quindarius.com --- 704-470-7036
 \author{Quin'darius Lyles-Woods}
 \maketitle
 \thispagestyle{empty}
+\section{Skills}
+\begin{itemize}
+	\item \textbf{Languages: } Swift, Javascript, C/C++, Java, Python, SQL, HTML, CSS, \LaTeX
+	\item \textbf{Tools: } SwiftUI, UIkit, Git, Xcode, Combine, Alamofire, Postgres, FHIR, NodeJS, React, Shell Scripting
+\end{itemize}
 \section{Experience}
 \subsection{\large{Mindsense}: Software Engineer \hfill \small{April 2021 - Present}}
+Indie software company founded in 2012, specializing in mail applications.
 \begin{itemize}
 \setlength\itemsep{.1em}
-	\item Developing and maintaining Mail Pilot and Throttle applications for MacOS and iOS.
-	\item While apart of the team I lead efforts in modernizing the codebase to SwiftUI, Decreasing the codebase size while allowing the team to reuse code for multiple platforms. 
-	\item Implemented a data saving paginated list to reduce load on the server as the user is requesting new articles in the Throttle application. 
+	\item Working on the Mail Pilot and Throttle teams developing native MacOS and iOS applications.
+	\item Leading efforts in modernizing the codebase to SwiftUI, decreasing the codebase size while allowing the team to reuse code for multiple platforms. 
+	\item Implemented a data saving paginated list to reduce load on the server and client as the user is requesting new articles in the Throttle application. 
 \end{itemize}
-\subsubsection{Tools Used: } Swift, SwiftUI, Github, Alamofire, Xcode, UIKit, Combine
-\subsection{\large{Lavendale}: Lead Software Engineer \hfill \small{March 2020 - September 2020}}
+\subsection{\large{Lavendale}: Software Engineer \hfill \small{March 2020 - September 2020}}
+Healthcare startup focusing on making patient data interoperable across multiple platforms.
 \begin{itemize}
 \setlength\itemsep{.1em}
-	\item Led the development of multiple products for Lavendale Healthcare. Developed and shipped the landing website for the company to gain useful information about our userbase. 
+	\item  Developed  the landing website for the company to help gain useful information about our userbase. 
 	\item Developed a client facing mobile application that allowed individuals to get aggregated blood data from across the United States.
-	\item Alongside the client facing application, I created a FHIR server to feed into the mobile application, housing the data while maintaining HIPPA compliance.
+	\item Created a FHIR server to feed into the mobile application, the server contained sensitive healthcare data while maintaining HIPPA compliance.
 \end{itemize}
-\subsubsection{Tools Used: } Swift, SwiftUI, Github, Xcode, Combine, Postgres, NodeJS, Express, React
-\subsection{\large{Apple}: Technical Advisor \hfill \small{February 2018 - February 2020}}
+\subsection{\large Student Managed Investment Fund: Analyst \hfill \small January 2019 - January 2020}
+Investment firm mentored by industry experts but ran by students, managing over \$500,000.
 \begin{itemize}
 \setlength\itemsep{.1em}
-	\item Created technical documentation for my team when new updates came out to assist them with customers during critical software and hardware transitions.
-	\item During that time I was able to exercise my communication skills by explaining sometimes extremely technical aspects of the operating system, applications, and cloud infrastructure to customers without any technical experience. 
+	\item Reduced the time to generate a report from 2-weeks to 2 days by automating information retrieval from the Bloomberg Terminal API's to excel spreadsheets to run various financial models and then automatically create a report, in the Microsoft Word Processor, with the corresponding models, all with only providing the ticker of the company. 
+	\item Participated in generating reports for the Technology and Energy Sector, which allowed for SMIF to take action on investments of tens of thousands of dollars that doubled since ownership.
+	\item Presented investment opportunities to industry experts and investors every month based off of deep analysis of company and sector financial data.
 \end{itemize}
 \section{Academics}
 \subsection{\large Kennesaw State University: Bachelor's of Computer Science \hfill \small Spring 2018 - May 2022}
-\subsubsection{Relevant Course Work:} Computer Graphics and Multimedia(GPU Programming), Internet Programming, Artificial Intelligence, Computer Organization and Architecture, Operating Systems, Natural Language Processing, Concepts of Programming Languages
+\subsubsection{Relevant Course Work:} Computer Graphics and Multimedia(GPU Programming), Internet Programming, Artificial Intelligence, Computer Organization and Architecture, Operating Systems, Natural Language Processing,Programming Languages Concepts II \hfill \textbf{GPA 3.43*}
 \subsection{\large Association for Computing Machinery: President \hfill \small January 2021 - Present}
 \begin{itemize}
 \setlength\itemsep{.1em}
@@ -73,11 +81,5 @@ quinwoodz@gmail.com --- https://quindarius.com --- 704-470-7036
 \setlength\itemsep{.1em}
 	\item While Vice President, the Kennesaw Speech and Debate team was able to gain a top three position at many national collegiate debates in the British Parliamentary style. 
 	\item My responsibilities outside of competing were mentoring new team members, holding workshops for the organization, and helping the President solidify travel arrangements for the team as we competed. 
-\end{itemize}
-\subsection{\large Student Managed Investment Fund: Analyst \hfill \small January 2019 - January 2020}
-\begin{itemize}
-\setlength\itemsep{.1em}
-	\item While an Analyst at SMIF I was able to bring down the time to generate a report from 2-weeks to 2 days by automating information retrivel from the Bloomberg Terminal API's to excel spreadsheets to run various financial models and then automatically create a report, in the Microsoft Word Processor, with the corresponding models, all with only providing the ticker of the company. 
-	\item Along side creating tools, I participated in generating reports for the Technology and Energy Sector, which allowed for SMIF to take action on investments of tens of thousands of dollars that doubled since ownership.
 \end{itemize}
 \end{document}
